@@ -10,6 +10,12 @@ That's the whole product. This repo is the **grail**: the frozen north‑star ex
 RAPP ecosystem is measured against. If a change makes RACon harder than *"drop in a cartridge, it
 works,"* the change is wrong.
 
+## ▶ Run it
+
+**RACon is itself a vrapplication** — it runs in your browser. **[Open RACon →](https://kody-w.github.io/racon/)**
+Insert the built‑in 🍳 Cowork Cookbook egg, or drop in any `.egg` cartridge, and it hatches into its
+own twin right there. (`index.html` is the console; `manifest.json` declares it.)
+
 ## What a user knows (and what they never have to)
 
 Four things, total:
@@ -17,7 +23,7 @@ Four things, total:
 - **RACon** — the console.
 - **your brainstem** — your AI, that RACon runs on.
 - **the kited twin** — your AI, following you across your devices (and shareable — multiplayer).
-- **cartridges** — the apps, passed around as **incubation files** (`.egg`) that hatch into your twin.
+- **`.egg` cartridges** — the apps you get and pass around (just call them **eggs**); an egg hatches into your twin.
 
 Everything else — agents, twins, ports, twin‑chat, the registry, the protocols — is the **builder
 layer** ("RAPP speak"). Real users never see it; if they have to, that's a bug.

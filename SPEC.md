@@ -17,10 +17,11 @@ mechanics live below it (see "Under the hood").
 - **RACon** — the console they use.
 - **their brainstem** — their AI; RACon runs on it (and boots it).
 - **the kited twin** — their AI follows them across their devices, and can be shared (multiplayer).
-- **shareable cartridges** — the apps they get and pass around, packaged as **incubation files**
-  (`.egg`): an incubation file incubates locally and *hatches* into their twin. (A cartridge may also
-  be a single `agent.py` loader that fetches its incubation file — see
-  [rapp-carts](https://github.com/kody-w/rapp-carts).)
+- **shareable `.egg` cartridges** — the apps they get and pass around. Call them **`.egg` cartridges**
+  (or just **eggs**) — "egg" is the friendly word: it incubates locally and *hatches* into their twin.
+  ("Incubation file" is the same thing described; `.egg` cartridge is what you say.) A cartridge may
+  also be a single `agent.py` loader that fetches its egg — see
+  [rapp-carts](https://github.com/kody-w/rapp-carts).
 
 **The builder layer — "RAPP speak":** agents, twin‑chat, the twin‑port runtime (SPEC §13), the
 registry (rapp‑god), the neighborhood protocols, sealing, ports. Builders live here; **a regular user
