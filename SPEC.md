@@ -10,8 +10,22 @@ mechanics live below it (see "Under the hood").
 > its own space — at home, on the go, and together with others. You never touch a port, a process, a
 > protocol, or code.
 
-Two nouns reach the user, ever: **RACon** (the console) and **cartridge** (a file — an `agent.py` or
-an `.egg`; see [rapp-carts](https://github.com/kody-w/rapp-carts)). Everything else is implementation.
+## 1a. Two layers — and the line between them
+
+**The user layer — all a regular person ever needs to know:**
+
+- **RACon** — the console they use.
+- **their brainstem** — their AI; RACon runs on it (and boots it).
+- **the kited twin** — their AI follows them across their devices, and can be shared (multiplayer).
+- **shareable cartridges** — the apps they get and pass around, packaged as **incubation files**
+  (`.egg`): an incubation file incubates locally and *hatches* into their twin. (A cartridge may also
+  be a single `agent.py` loader that fetches its incubation file — see
+  [rapp-carts](https://github.com/kody-w/rapp-carts).)
+
+**The builder layer — "RAPP speak":** agents, twin‑chat, the twin‑port runtime (SPEC §13), the
+registry (rapp‑god), the neighborhood protocols, sealing, ports. Builders live here; **a regular user
+never has to meet any of it.** If a user‑facing surface makes someone learn a builder‑layer word,
+that's a bug, not a feature.
 
 ## 2. The local surfaces
 
