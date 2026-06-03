@@ -74,8 +74,12 @@ No port numbers. No process management. No protocol words. No code.
 
 RACon hides: the bootloader (`brainstem.py`), the per‑cartridge **twin on its own port** (RAPP Store
 SPEC §13), **twin‑chat** (`rapp-twin-chat/1.0`), the `.egg` fetch/unpack, the twins registry, the
-sealed channel and key handling, and the kite transports. These exist; none of them are the user's
-concern.
+sealed channel and key handling, the kite transports, and **MCP**
+([rapp-mcp](https://github.com/kody-w/rapp-mcp), `rapp-mcp-spec/1.0`). MCP is just another way a
+builder or partner host reaches the brainstem — a Layer‑2 caller of `/chat`, transport that realizes
+*Chat Is The Only Wire*, not a new unit or taxonomy. Its static profile (`rapp-static-mcp/1.0`) is
+likewise an under‑the‑hood discovery surface, sitting alongside the twins registry in the cartridge
+fetch path. These exist; none of them are the user's concern.
 
 ## 6. Why this is the grail
 
