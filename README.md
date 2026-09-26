@@ -1,5 +1,9 @@
 # 🎮 RACon — the experience (the grail)
 
+<!-- rapp1:network-header:start -->
+[![RAPP/1](https://kody-w.github.io/rapp-hive-public/portfolio/badges/racon.svg)](https://github.com/kody-w/rapp-hive-public/blob/main/portfolio/repos/racon.md) · **New to RAPP?** [Start here: get your Brainstem →](https://github.com/kody-w/rapp-installer#start-here)
+<!-- rapp1:network-header:end -->
+
 **RACon is what you see. Everything else disappears.**
 
 You get a **cartridge** — a file. You drop it into RACon. Your AI now *has* that app, game, or tool —
